@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="198px" height="416px" viewBox="0 0 198 416" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="8" y="48" width="180" height="320"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="184" height="324">
+            <rect x="6" y="46" width="184" height="324" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Devices" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="vimeo" transform="translate(-1067.000000, -325.000000)">
+            <g id="Group-2" transform="translate(1067.000000, 325.000000)">
+                <rect id="mic" fill="#444444" transform="translate(196.000000, 104.000000) scale(-1, 1) rotate(-90.000000) translate(-196.000000, -104.000000) " x="180" y="102" width="32" height="4" rx="2"></rect>
+                <rect id="mic" fill="#444444" transform="translate(196.000000, 168.000000) scale(-1, 1) rotate(-90.000000) translate(-196.000000, -168.000000) " x="164" y="166" width="64" height="4" rx="2"></rect>
+                <rect id="base" fill="#333333" x="0" y="0" width="196" height="416" rx="32"></rect>
+                <g id="Your-screen">
+                    <use fill="#444444" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use stroke="#444444" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                </g>
+                <rect id="mic" fill="#444444" x="66" y="14" width="64" height="6" rx="3"></rect>
+                <rect id="mic" fill="#444444" x="66" y="396" width="64" height="6" rx="3"></rect>
+                <circle id="cam" fill="#444444" cx="55" cy="17" r="3"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

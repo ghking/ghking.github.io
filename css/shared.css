@@ -1,0 +1,36 @@
+* { text-decoration: none; outline: none; list-style-type: none; }
+body { background-color: white; }
+code, kbd, samp, pre, tt, var, textarea, input, select, isindex, listing, xmp, plaintext { font: inherit; font-size: 1em; white-space: normal; }
+dfn, i, cite, var, address, em { font-style: normal; }
+a, img, a img, iframe, form, fieldset, abbr, acronym, object, applet, table { border: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+caption, th, td, center { text-align: left; vertical-align: top; }
+q { quotes: "" ""; }
+sub, sup { vertical-align: baseline; }
+a { color: inherit; }
+hr { display: none; } /* we don't need a visual hr in layout */
+font { color: inherit !important; font: inherit !important; color: inherit !important; } /* disables some nasty font attributes in standard browsers */
+marquee { overflow: inherit !important; -moz-binding: none; }
+blink { text-decoration: none; }
+nobr { white-space: normal; }
+
+body, html 
+{
+	height: 100%;
+	width: 100%;
+}
+
+a 
+{
+	color: #68B553;
+}
+
+body, html, div 
+{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-size: 16px;
+	color: #333;
+}

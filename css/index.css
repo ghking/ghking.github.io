@@ -1,0 +1,255 @@
+/* General */
+
+*
+{
+	text-align: center;
+}
+
+h1
+{
+	font-size: 56px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+h2
+{
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+h3
+{
+	font-size: 16px;
+	font-weight: normal;
+	opacity: 0.5;
+	margin: 0px;
+}
+
+p
+{
+	margin: 0px;
+	margin-bottom: 8px;
+	line-height: 24px;
+	margin-top: 32px;
+}
+
+main
+{
+  	max-width: 720px;
+	margin: auto;
+	padding: 32px;
+	padding-bottom: 64px;
+}
+
+/* Collections */
+
+.collection
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.collection > div > img
+{
+	height: 100%; 
+	width: 100%; 
+}
+
+/* Top Collection */
+
+body .collection > *:not(:last-child)
+{
+	margin-right: 4px;
+}
+
+/* Nav */
+
+nav
+{
+	margin-top: 32px;
+}
+
+nav > span
+{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 8px;
+	display: inline-block;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+nav > span.selected
+{
+	background-color: #333;
+	color: white;
+}
+
+/* Links */
+
+#links
+{
+	margin-top: 32px;
+}
+
+.emoji
+{
+	vertical-align: middle;
+}
+
+#links > a:not(:last-child)
+{
+	margin-right: 8px;
+}
+
+#links > a > .emoji
+{
+	margin: 6px;
+	font-size: 20px;
+}
+
+/* Segments */
+
+.segment
+{
+	width: 8px;
+	opacity: 0.16;
+	margin: auto;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+.circle
+{
+	width: 8px;
+	height: 8px;
+	border-radius: 8px;
+	background-color: black;
+}
+
+.line
+{
+	height: 96px;
+	background-color: black;
+	width: 2px;
+	margin: auto;
+}
+
+/* Segments */
+
+section > .collection > *:not(:last-child)
+{
+	margin-right: 16px;
+}
+
+/* Sections */
+
+section > img
+{
+	max-width: 240px;
+	max-height: 240px;
+}
+
+section > h2
+{
+	margin-top: 16px;
+}
+
+section > h3
+{
+	margin-top: 8px;
+}
+
+section > .link-container
+{
+	margin-top: 8px;
+}
+
+section > .collection
+{
+	margin-top: 32px;
+}
+
+.tech-stack
+{
+	margin-top: 16px;
+	font-style: italic;
+	opacity: 0.5;
+}
+
+/* Screenshot Containers */
+
+.screenshot-container
+{
+	position: absolute;
+}
+
+.screenshot-container > img
+{
+	width: 100%;
+}
+
+.phone-ios-screenshot-container
+{
+	top: 11.538%;
+	bottom: 11.538%;
+	right: 5%;
+	left: 5%;
+}
+
+.phone-android-tall-screenshot-container
+{
+	top: 11.538%;
+	bottom: 11.538%;
+	right: 5.05%;
+	left: 4.04%;
+}
+
+.phone-android-short-screenshot-container
+{
+	top: 12.12%;
+	bottom: 12.12%;
+	right: 5.05%;
+	left: 4.04%;
+}
+
+.tv-screenshot-container
+{
+	top: 3.213%;
+	bottom: 6.426%;
+	left: 1.923%;
+	right: 1.923%;
+}
+
+.laptop-screenshot-container
+{
+	top: 5.369%;
+	bottom: 10.738%;
+	left: 9.677%;
+	right: 9.677%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
