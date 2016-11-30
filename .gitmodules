@@ -1,0 +1,3 @@
+[submodule "modules/Hood"]
+	path = modules/Hood
+	url = git@github.com:ghking/Hood.git
