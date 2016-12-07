@@ -58,6 +58,13 @@ main
 	width: 100%;
 }
 
+.collection > img
+{
+	max-height: 540px;
+	max-width: 540px;
+}
+
+
 /* Top Collection */
 
 body .collection > *:not(:last-child)
@@ -232,4 +239,12 @@ section > .collection
 	bottom: 10.738%;
 	left: 9.677%;
 	right: 9.677%;
+}
+
+.pebble-screenshot-container
+{
+    top: 30.597%;
+	bottom: 30.597%;
+	left: 20.779%;
+	right: 20.779%;
 }

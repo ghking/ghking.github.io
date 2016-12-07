@@ -1,21 +1,21 @@
-$(document).ready(function() 
+$(document).ready(function()
 {
-	$("#work-button").click(function() 
+	$("#work-button").click(function()
 	{
 		didClickNavigationButton($(this), "html/work.html")
 	});
 
-	$("#personal-projects-button").click(function() 
+	$("#personal-projects-button").click(function()
 	{
 		didClickNavigationButton($(this), "html/personal_projects.html")
 	});
 
-	$("#education-button").click(function() 
+	$("#education-button").click(function()
 	{
 		didClickNavigationButton($(this), "html/education.html")
 	});
 
-	$("#work-button").click()
+	$("#personal-projects-button").click()
 });
 
 function didClickNavigationButton(navigationButton, contentURL)
