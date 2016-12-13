@@ -8,8 +8,12 @@
 
 	#links > a
 	{
-        margin-top: 8px;
 		margin-right: 0px;
 		display: block
 	}
+
+    #links > a:not(:first-child)
+    {
+        margin-top: 16px;
+    }
 }
