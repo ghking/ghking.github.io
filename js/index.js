@@ -3,7 +3,7 @@ $(document).ready(function()
     setupListeners();
     setupEmailAddress();
 
-    $("#personal-projects-button").click();
+    $("#work-button").click();
 });
 
 // Setup
