@@ -1,3 +1,6 @@
 [submodule "modules/Hood"]
 	path = modules/Hood
 	url = https://github.com/ghking/Hood.git
+[submodule "modules/Pull-Request-Templater"]
+	path = modules/Pull-Request-Templater
+	url = https://github.com/ghking/Pull-Request-Templater.git
