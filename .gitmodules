@@ -4,3 +4,6 @@
 [submodule "modules/Pull-Request-Templater"]
 	path = modules/Pull-Request-Templater
 	url = https://github.com/ghking/Pull-Request-Templater.git
+[submodule "modules/Privacy-Policy"]
+	path = modules/Privacy-Policy
+	url = https://github.com/ghking/Privacy-Policy.git
