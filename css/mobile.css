@@ -1,16 +1,16 @@
 @media only screen and (max-width: 640px)
 {
-	nav > span
-	{
-		margin-right: 0px;
-		display: block
-	}
+    nav > span
+    {
+        margin-right: 0px;
+        display: block
+    }
 
-	#links > a
-	{
-		margin-right: 0px;
-		display: block
-	}
+    #links > a
+    {
+        margin-right: 0px;
+        display: block
+    }
 
     #links > a:not(:first-child)
     {

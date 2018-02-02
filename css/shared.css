@@ -14,23 +14,23 @@ marquee { overflow: inherit !important; -moz-binding: none; }
 blink { text-decoration: none; }
 nobr { white-space: normal; }
 
-body, html 
+body, html
 {
-	height: 100%;
-	width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
-a 
+a
 {
-	color: #68B553;
+    color: #68B553;
 }
 
-body, html, div 
+body, html, div
 {
-	margin: 0px;
-	padding: 0px;
-	position: relative;
-    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif; 
-	font-size: 16px;
-	color: #333;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
 }
