@@ -1,9 +1,6 @@
-[submodule "modules/Hood"]
-	path = modules/Hood
-	url = https://github.com/ghking/Hood.git
-[submodule "modules/Pull-Request-Templater"]
-	path = modules/Pull-Request-Templater
-	url = https://github.com/ghking/Pull-Request-Templater.git
+[submodule "modules/Terms-Of-Service"]
+	path = modules/Terms-Of-Service
+	url = https://github.com/ghking/Terms-Of-Service.git
 [submodule "modules/Privacy-Policy"]
 	path = modules/Privacy-Policy
 	url = https://github.com/ghking/Privacy-Policy.git
