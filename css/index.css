@@ -1,64 +1,37 @@
-*
-{
+body, html, div {
+	margin: 0px;
+	padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
     text-align: center;
+	color: black;
 }
+
+html, body {
+    height: 100%;
+}
+
+a
+{
+    color: #68B553;
+    text-decoration: none;
+}
+
+main
+{
+    height: 85%;
+    padding-left: 64px;
+    padding-right: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 
 h1
 {
     font-size: 56px;
     font-weight: bold;
-    margin: 0px;
-}
-
-h2
-{
-    font-size: 16px;
-    font-weight: bold;
-    margin: 0px;
-}
-
-h3
-{
-    font-size: 16px;
-    font-weight: normal;
-    opacity: 0.5;
-    margin: 0px;
-}
-
-p
-{
-    margin: 0px;
-    margin-bottom: 8px;
-    line-height: 24px;
-    margin-top: 32px;
-}
-
-main
-{
-    padding-left: 64px;
-    padding-right: 64px;
-    position: relative;
-    top: 45%;
-    transform: translateY(-50%);
-}
-
-#links
-{
-    margin-top: 32px;
-}
-
-.emoji
-{
-    vertical-align: middle;
-}
-
-#links > a:not(:last-child)
-{
-    margin-right: 8px;
-}
-
-#links > a > .emoji
-{
-    margin: 6px;
-    font-size: 20px;
+    margin-bottom: 16px;
 }
