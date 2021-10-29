@@ -5,5 +5,5 @@
 	path = modules/Privacy-Policy
 	url = https://github.com/ghking/Privacy-Policy.git
 [submodule "modules/Security-Policy"]
-        path = modules/Securituy-Policy
+        path = modules/Security-Policy
         url = https://github.com/ghking/Security-Policy.git
