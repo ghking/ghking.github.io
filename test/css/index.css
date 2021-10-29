@@ -1,0 +1,36 @@
+body, html, div {
+	margin: 0px;
+	padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+	color: black;
+}
+
+html, body {
+    height: 100%;
+}
+
+a
+{
+    color: #68B553;
+    text-decoration: none;
+}
+
+main
+{
+    height: 85%;
+    padding-left: 64px;
+    padding-right: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+h1
+{
+    font-size: 56px;
+    margin-bottom: 16px;
+}
