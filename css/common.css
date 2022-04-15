@@ -14,6 +14,10 @@ a {
 
 /* Classes */
 
+.large-header {
+    font-size: 3em;
+}
+
 .vertically-centered {
     width: 100%;
     position: absolute;
