@@ -1,12 +1,9 @@
-$(document).ready(function()
-{
-    setupEmailAddress();
-});
+$(document).ready(() => {
+    setupEmailAddress()
+})
 
-function setupEmailAddress()
-{
-    var name = "hello";
-    var domain = "ghking.co";
-
-    $("#email").attr("href", "mail" + "to" + ":" + name + "@" + domain);
+function setupEmailAddress() {
+    const name = "hello"
+    const domain = "ghking.co"
+    $("#email").attr("href", "mail" + "to" + ":" + name + "@" + domain)
 }
