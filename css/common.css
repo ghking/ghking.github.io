@@ -7,6 +7,11 @@ div {
     color: black;
 }
 
+body {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
 a {
     text-decoration: inherit;
     color: #007AFF;
@@ -14,17 +19,15 @@ a {
 
 /* Classes */
 
+.text-centered {
+    text-align: center;
+}
+
+.width-constrained {
+    margin: auto;
+    max-width: 640px;
+}
+
 .large-header {
     font-size: 3em;
-}
-
-.vertically-centered {
-    width: 100%;
-    position: absolute;
-    top: 45%;
-    transform: translateY(-50%);
-}
-
-.horizontally-centered {
-    text-align: center;
 }

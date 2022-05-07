@@ -1,0 +1,20 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+/* Classes */
+
+.vertically-centered-parent {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+
+.vertically-centered {
+    width: 100%;
+}
