@@ -1,0 +1,33 @@
+body, html, div {
+	margin: 0px;
+	padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: black;
+}
+
+img {
+	width: 100%;
+}
+
+.outlined {
+	outline: 1px solid rgba(0, 0, 0, 0.1);
+	outline-offset: -1px;
+}
+
+.media-container {
+	margin-bottom: 1em;
+}
+
+.media-triple-row {
+	display: flex;
+}
+
+.media-triple-row .media-container {
+	width: calc(100% / 3);
+	padding-right: 1em;
+}
+
+.media-triple-row .media-container:last-child {
+	padding-right: 0;
+}

@@ -6,8 +6,6 @@ body {
     height: 100%;
 }
 
-/* Classes */
-
 .vertically-centered-parent {
     display: flex;
     align-items: center;

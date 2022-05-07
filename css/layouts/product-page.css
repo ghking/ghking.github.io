@@ -1,0 +1,81 @@
+html, body {
+    height: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 4em;
+}
+
+p {
+    opacity: 0.32;
+}
+
+#left {
+    height: 100%;
+} 
+
+#right {
+    max-width: 420px;
+    margin-left: 2em;
+}
+
+#icon {
+    width: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    margin-bottom: 1em;
+}
+
+#phone-image {
+    max-height: 640px;
+    height: 100%;
+}
+
+#buttons-container {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#buttons-container a {
+    display: block;
+    margin-bottom: 1em;
+}
+
+#app-store-button img {
+    height: 54px;
+}
+
+@media only screen and (max-width: 640px) {
+    * {
+        text-align: center;
+    }
+    
+    main {
+        height: auto;
+        flex-direction: column-reverse;
+        padding: 2em;
+    }
+
+    #right {
+        margin-left: 0;
+        margin-bottom: 2em;
+    }
+
+    #phone-image {
+        width: 100%;
+        max-height: inherit;
+    }
+}
+
+/* Class Overrides */
+
+.large-header {
+    margin-top: 0;
+    margin-bottom: 0;
+}
