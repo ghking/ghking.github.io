@@ -16,10 +16,6 @@ p {
     opacity: 0.32;
 }
 
-#left {
-    height: 100%;
-} 
-
 #right {
     max-width: 420px;
     margin-left: 2em;
