@@ -7,11 +7,6 @@ div {
     color: black;
 }
 
-body {
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
 a {
     text-decoration: inherit;
     color: #007AFF;
@@ -26,6 +21,9 @@ a {
 .width-constrained {
     margin: auto;
     max-width: 640px;
+    box-sizing: border-box;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .large-header {
