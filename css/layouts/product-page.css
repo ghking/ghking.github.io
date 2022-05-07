@@ -47,10 +47,6 @@ p {
     margin-bottom: 1em;
 }
 
-#app-store-button img {
-    height: 54px;
-}
-
 @media only screen and (max-width: 640px) {
     * {
         text-align: center;
